@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d70a92bc-2729-493e-a612-9463b44c5a8e" name="Changes" comment="" />
+    <list default="true" id="d70a92bc-2729-493e-a612-9463b44c5a8e" name="Changes" comment="Init: 1.Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +14,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2IDVoQFFatqesfu0kLNPPwOFE2b" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -34,8 +39,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669716316914</updated>
+      <workItem from="1669716319127" duration="667000" />
     </task>
+    <task id="LOCAL-00001" summary="Init: 1.Commit">
+      <created>1669716456580</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669716456580</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -47,5 +64,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init: 1.Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init: 1.Commit" />
   </component>
 </project>
