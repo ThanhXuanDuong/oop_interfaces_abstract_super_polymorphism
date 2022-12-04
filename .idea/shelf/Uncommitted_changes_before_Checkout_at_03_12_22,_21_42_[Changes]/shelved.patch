@@ -1,0 +1,109 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,9 +4,9 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="d70a92bc-2729-493e-a612-9463b44c5a8e" name="Changes" comment="add: interface aufgabe">
++    <list default="true" id="d70a92bc-2729-493e-a612-9463b44c5a8e" name="Changes" comment="branch: smartphone exercise">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/de/neuefische/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/neuefische/Main.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/de/neuefische/Smartphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/neuefische/Smartphone.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -38,13 +38,13 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "WebServerToolWindowFactoryState": "false"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+@@ -53,7 +53,10 @@
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1669716316914</updated>
+-      <workItem from="1669716319127" duration="20553000" />
++      <workItem from="1669716319127" duration="21473000" />
++      <workItem from="1669793990378" duration="5304000" />
++      <workItem from="1669909963973" duration="1793000" />
++      <workItem from="1669972799613" duration="2077000" />
+     </task>
+     <task id="LOCAL-00001" summary="Init: 1.Commit">
+       <created>1669716456580</created>
+@@ -90,7 +93,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1669735384978</updated>
+     </task>
+-    <option name="localTasksCounter" value="6" />
++    <task id="LOCAL-00006" summary="branch: smartphone exercise">
++      <created>1669747889570</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1669747889570</updated>
++    </task>
++    <option name="localTasksCounter" value="7" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -123,6 +133,8 @@
+     <MESSAGE value="Init: 1.Commit" />
+     <MESSAGE value="add: dependencies and surefire" />
+     <MESSAGE value="add: interface aufgabe" />
+-    <option name="LAST_COMMIT_MESSAGE" value="add: interface aufgabe" />
++    <MESSAGE value="branch: smartphone aufgabe" />
++    <MESSAGE value="branch: smartphone exercise" />
++    <option name="LAST_COMMIT_MESSAGE" value="branch: smartphone exercise" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: src/main/java/de/neuefische/Smartphone.java
+===================================================================
+diff --git a/src/main/java/de/neuefische/Smartphone.java b/src/main/java/de/neuefische/Smartphone.java
+--- a/src/main/java/de/neuefische/Smartphone.java	
++++ b/src/main/java/de/neuefische/Smartphone.java	
+@@ -92,7 +92,7 @@
+     }
+ 
+     public Contact[] getContactByName(String name){
+-        Contact[] result= new Contact[10];
++        Contact[] result= new Contact[2];
+         int j=0;
+         for (int i=0; i< contacts.length;i++) {
+             if (contacts[i].name.equals(name)){
+@@ -104,7 +104,7 @@
+     }
+ 
+     public Contact[] removeContactByName(String name){
+-        Contact[] newList= new Contact[contacts.length];
++        Contact[] newList= new Contact[contacts.length-1];
+         int j=0;
+         for (int i=0; i< contacts.length;i++) {
+             if (!contacts[i].name.equals(name)){
+@@ -115,6 +115,4 @@
+         contacts=newList;
+         return contacts;
+     }
+-
+-
+ }

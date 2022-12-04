@@ -1,8 +1,8 @@
-package de.neuefische;
+package de.neuefische.smartphone;
 
 import java.util.Objects;
 
-public class BusinessContact extends Friend{
+public class BusinessContact extends Friend {
     private String companyName;
 
     public BusinessContact(String name, String telefonNumber, String companyName) {

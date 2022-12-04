@@ -1,6 +1,6 @@
-package de.neuefische;
+package de.neuefische.smartphone;
 
-public class Friend extends Contact{
+public class Friend extends Contact {
     protected String telefonNumber;
 
     public Friend() {

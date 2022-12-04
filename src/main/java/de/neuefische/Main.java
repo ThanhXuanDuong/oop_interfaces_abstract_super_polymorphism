@@ -1,5 +1,10 @@
 package de.neuefische;
 
+import de.neuefische.smartphone.BusinessContact;
+import de.neuefische.smartphone.Contact;
+import de.neuefische.smartphone.Friend;
+import de.neuefische.smartphone.Smartphone;
+
 import java.util.Arrays;
 
 public class Main {

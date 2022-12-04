@@ -1,4 +1,4 @@
-package de.neuefische;
+package de.neuefische.smartphone;
 
 public interface GPS {
     String getPosition();

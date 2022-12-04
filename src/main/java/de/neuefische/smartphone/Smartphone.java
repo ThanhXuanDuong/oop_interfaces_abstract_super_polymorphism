@@ -1,9 +1,9 @@
-package de.neuefische;
+package de.neuefische.smartphone;
 
 import java.util.Arrays;
 import java.util.Objects;
 
-public class Smartphone implements Radio, GPS{
+public class Smartphone implements Radio, GPS {
     private String model;
     private String brand;
     private Contact[] contacts;

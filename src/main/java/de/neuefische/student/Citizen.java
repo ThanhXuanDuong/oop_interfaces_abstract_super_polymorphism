@@ -1,4 +1,4 @@
-package de.neuefische;
+package de.neuefische.student;
 
 public interface Citizen {
      String getAddress();

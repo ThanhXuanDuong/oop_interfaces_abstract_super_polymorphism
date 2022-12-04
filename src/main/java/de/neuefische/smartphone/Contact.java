@@ -1,7 +1,6 @@
-package de.neuefische;
+package de.neuefische.smartphone;
 
 import lombok.AllArgsConstructor;
-import lombok.Data;
 
 import java.util.Objects;
 
